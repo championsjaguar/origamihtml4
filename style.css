@@ -1,0 +1,60 @@
+.item{
+display: flex;
+flex-wrap:wrap;
+justify-content: space-between;
+margin: 10px;
+background-color: blanchedalmond;
+padding: 10px;
+}
+.grid{
+display: flex;
+flex-wrap:wrap;
+
+background-color: rgb(211, 148, 13);
+
+
+}
+.grid img {
+    border: 2px solid black;
+border-radius: 50px;
+margin: 10px;
+}
+.grid p {
+
+   font-size: large;
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+.all{
+ background-color:rgb(211, 148, 13) ;
+
+}
+
+.text{
+
+text-decoration: cadetblue;
+    text-align: center;
+    font-family: initial;
+    background-color: black;
+    color: white;
+}
+.grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.item img {
+display: flex;
+    flex-wrap:wrap-reverse;
+    position: relative;
+}
+
+
+
+
+.item :hover img{
+transform: scale(1.2)
+
+}
